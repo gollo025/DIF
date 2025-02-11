@@ -87,9 +87,9 @@ namespace DIF
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
         {
-            if (!System.Text.RegularExpressions.Regex.IsMatch(txtNombre.Text, @"^[a-zA-Z]*$"))
+            if (!System.Text.RegularExpressions.Regex.IsMatch(txtNombre.Text, @"^[a-zA-Z\s]*$"))
             {
-                MessageBox.Show("El nombre solo debe contener letras.");
+                MessageBox.Show("El nombre solo debe contener letras. ");
                 txtNombre.Text = string.Empty; // Limpiar el TextBox
             }
         }

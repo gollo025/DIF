@@ -41,6 +41,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sALIRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCERCADEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practica2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -145,10 +146,11 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sALIRToolStripMenuItem,
-            this.aCERCADEToolStripMenuItem});
+            this.aCERCADEToolStripMenuItem,
+            this.practica2ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1126, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(1126, 33);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -156,15 +158,23 @@
             // sALIRToolStripMenuItem
             // 
             this.sALIRToolStripMenuItem.Name = "sALIRToolStripMenuItem";
-            this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(74, 32);
+            this.sALIRToolStripMenuItem.Size = new System.Drawing.Size(74, 29);
             this.sALIRToolStripMenuItem.Text = "SALIR";
             this.sALIRToolStripMenuItem.Click += new System.EventHandler(this.sALIRToolStripMenuItem_Click);
             // 
             // aCERCADEToolStripMenuItem
             // 
             this.aCERCADEToolStripMenuItem.Name = "aCERCADEToolStripMenuItem";
-            this.aCERCADEToolStripMenuItem.Size = new System.Drawing.Size(121, 32);
+            this.aCERCADEToolStripMenuItem.Size = new System.Drawing.Size(121, 29);
             this.aCERCADEToolStripMenuItem.Text = "ACERCA DE";
+            this.aCERCADEToolStripMenuItem.Click += new System.EventHandler(this.aCERCADEToolStripMenuItem_Click);
+            // 
+            // practica2ToolStripMenuItem
+            // 
+            this.practica2ToolStripMenuItem.Name = "practica2ToolStripMenuItem";
+            this.practica2ToolStripMenuItem.Size = new System.Drawing.Size(98, 29);
+            this.practica2ToolStripMenuItem.Text = "Practica2";
+            this.practica2ToolStripMenuItem.Click += new System.EventHandler(this.practica2ToolStripMenuItem_Click);
             // 
             // GestionDeContactos
             // 
@@ -208,6 +218,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem sALIRToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aCERCADEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practica2ToolStripMenuItem;
     }
 }
 

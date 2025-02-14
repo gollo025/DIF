@@ -105,6 +105,7 @@ namespace DIF
 
         private void label2_Click(object sender, EventArgs e)
         {
+           
 
         }
 
@@ -112,5 +113,21 @@ namespace DIF
         {
 
         }
+
+        private void aCERCADEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ESTA ES UNA APLICACION QUE PERMITE AL USUARIO GUARDAR CONTACTOS");
+        }
+
+        private void practica2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           Practica2 practia = new Practica2();
+
+
+
+           practia.Show();
+        }
+
+
     }
 }

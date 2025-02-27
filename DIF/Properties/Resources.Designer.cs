@@ -63,6 +63,16 @@ namespace DIF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _752070 {
+            get {
+                object obj = ResourceManager.GetObject("752070", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Oli4 {
             get {
                 object obj = ResourceManager.GetObject("Oli4", resourceCulture);

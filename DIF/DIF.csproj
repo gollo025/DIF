@@ -50,6 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Forms\Class1.cs" />
+    <Compile Include="Forms\concurrente.cs" />
+    <Compile Include="Forms\concurrenteFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\concurrenteFrame.Designer.cs">
+      <DependentUpon>concurrenteFrame.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\dllFunciona.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +101,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\concurrenteFrame.resx">
+      <DependentUpon>concurrenteFrame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\dllFunciona.resx">
       <DependentUpon>dllFunciona.cs</DependentUpon>
     </EmbeddedResource>

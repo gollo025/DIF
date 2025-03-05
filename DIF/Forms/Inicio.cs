@@ -60,5 +60,12 @@ namespace DIF.Forms
 
             fun.Show();
         }
+
+        private void toolStripMenuItem5_Click(object sender, EventArgs e)
+        {
+            concurrenteFrame concurrente= new concurrenteFrame();
+
+            concurrente.Show();
+        }
     }
 }

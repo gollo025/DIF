@@ -33,11 +33,12 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.dLLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dllToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dLLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dllToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -62,7 +63,8 @@
             this.practica1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
-            this.toolStripMenuItem4});
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem5});
             this.practica1ToolStripMenuItem.Name = "practica1ToolStripMenuItem";
             this.practica1ToolStripMenuItem.Size = new System.Drawing.Size(119, 29);
             this.practica1ToolStripMenuItem.Text = "PRACTICAS";
@@ -88,6 +90,21 @@
             this.toolStripMenuItem4.Size = new System.Drawing.Size(270, 34);
             this.toolStripMenuItem4.Text = "3";
             this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
+            // 
+            // dLLToolStripMenuItem
+            // 
+            this.dLLToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dllToolStripMenuItem1});
+            this.dLLToolStripMenuItem.Name = "dLLToolStripMenuItem";
+            this.dLLToolStripMenuItem.Size = new System.Drawing.Size(57, 29);
+            this.dLLToolStripMenuItem.Text = "DLL";
+            // 
+            // dllToolStripMenuItem1
+            // 
+            this.dllToolStripMenuItem1.Name = "dllToolStripMenuItem1";
+            this.dllToolStripMenuItem1.Size = new System.Drawing.Size(133, 34);
+            this.dllToolStripMenuItem1.Text = "dll";
+            this.dllToolStripMenuItem1.Click += new System.EventHandler(this.dllToolStripMenuItem1_Click);
             // 
             // panel1
             // 
@@ -119,20 +136,12 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // dLLToolStripMenuItem
+            // toolStripMenuItem5
             // 
-            this.dLLToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dllToolStripMenuItem1});
-            this.dLLToolStripMenuItem.Name = "dLLToolStripMenuItem";
-            this.dLLToolStripMenuItem.Size = new System.Drawing.Size(57, 29);
-            this.dLLToolStripMenuItem.Text = "DLL";
-            // 
-            // dllToolStripMenuItem1
-            // 
-            this.dllToolStripMenuItem1.Name = "dllToolStripMenuItem1";
-            this.dllToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
-            this.dllToolStripMenuItem1.Text = "dll";
-            this.dllToolStripMenuItem1.Click += new System.EventHandler(this.dllToolStripMenuItem1_Click);
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(270, 34);
+            this.toolStripMenuItem5.Text = "4";
+            this.toolStripMenuItem5.Click += new System.EventHandler(this.toolStripMenuItem5_Click);
             // 
             // Inicio
             // 
@@ -166,5 +175,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem dLLToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dllToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
     }
 }
